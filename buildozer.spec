@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Tetrivy
+title = Hello World
 
 # (str) Package name
-package.name = tetrivyapp
+package.name = hello
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = net.subfocal
@@ -33,7 +33,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = kivy
+requirements = python3,kivy==2.3.0,pillow
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
